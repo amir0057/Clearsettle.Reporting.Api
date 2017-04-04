@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using Clearsettle.Driver.Model.Builder;
 using Clearsettle.Driver.Model.Request;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -35,30 +36,40 @@ namespace Clearsettle.Driver.Tests
         {
             var request = new TransactionRequest
             {
-                TransactionId = "1-1444392550-1"
+                TransactionId = "2827-1443515082-3"
             };
             var response = await client.GetTransaction(request);
             response.Should().NotBeNull();
         }
-
+        [TestMethod]
         public async Task Get_Merchanent_Should_Not_Be_Null()
         {
             var request = new MerchentRequest
             {
-                TransactionId = "1-1444392550-1"
+                TransactionId = "2827-1443515082-3"
             };
             var response = await client.GetMerchant(request);
+            response.Should().NotBeNull();
+        }
+        [TestMethod]
+        public async Task Get_Client_Should_Not_Be_Null()
+        {
+            var request = new ClientRequest
+            {
+                TransactionId = "2827-1443515082-3"
+            };
+            var response = await client.GetClient(request);
             response.Should().NotBeNull();
         }
 
         [TestMethod]
         public async Task Get_TransactionList_Should_Not_Be_Null()
         {
-            var request = new TransactionListRequest
-            {
-                FromDate = DateTime.Parse("2015-07-01"),
-                ToDate = DateTime.Parse("2015-10-01")
-            };
+            var request = TransactionListRequestBuilder.Create()
+               .FromDate(DateTime.Parse("2014-05-01"))
+               .ToDate(DateTime.Parse("2015-10-01"))
+               .Build();
+           
             var response = await client.GetTransactionList(request);
             response.Should().NotBeNull();
         }
@@ -66,13 +77,11 @@ namespace Clearsettle.Driver.Tests
         [TestMethod]
         public async Task Get_Report_Should_Not_Be_Null()
         {
-            var request = new ReportRequest
-            {
-                Acquirer = 1,
-                Merchant = 1,
-                FromDate = DateTime.Parse("2015-07-01"),
-                ToDate = DateTime.Parse("2015-10-01")
-            };
+            var request = ReportRequestBuilder.Create()
+                .FromDate(DateTime.Parse("2014-05-01"))
+                .ToDate(DateTime.Parse("2015-10-01"))
+                .Build();
+           
             var response = await client.GetReport(request);
             response.Should().NotBeNull();
         }

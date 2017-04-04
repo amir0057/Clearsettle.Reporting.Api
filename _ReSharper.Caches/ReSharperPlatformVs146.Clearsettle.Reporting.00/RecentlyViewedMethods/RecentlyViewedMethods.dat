@@ -1,0 +1,19 @@
+﻿<RecentlyViewedMethods>
+  <RecentlyViewedMethods>
+    <RecentMethod id="753c1a9c-7606-40a5-9d90-28168fb776d7%28Clearsettle.Driver%29-1382251/P%3AClearsettle.Driver.Model.Response.TransactionResponse.CustomerInfo" />
+    <RecentMethod id="753c1a9c-7606-40a5-9d90-28168fb776d7%28Clearsettle.Driver%29-1382251/M%3AClearsettle.Driver.ClearsettleClient.GetTransaction%28Clearsettle.Driver.Model.Request.TransactionRequest%29" />
+    <RecentMethod id="753c1a9c-7606-40a5-9d90-28168fb776d7%28Clearsettle.Driver%29-1382251/P%3AClearsettle.Driver.Model.Response.TransactionResponse.MerchantTransaction.Agent.MerchantUserAgent" />
+    <RecentMethod id="753c1a9c-7606-40a5-9d90-28168fb776d7%28Clearsettle.Driver%29-1382251/P%3AClearsettle.Driver.Model.Response.TransactionListResponse.Data" />
+    <RecentMethod id="3160b873-bb6d-4aee-8b82-f5aab26e42a0%28Clearsettle.Driver.Tests%29-DD009C44/M%3AClearsettle.Driver.Tests.ClearsettleClientFixture.Get_TransactionList_Should_Not_Be_Null" />
+    <RecentMethod id="753c1a9c-7606-40a5-9d90-28168fb776d7%28Clearsettle.Driver%29-1382251/M%3AClearsettle.Driver.Model.Builder.TransactionListRequestBuilder.Build" />
+    <RecentMethod id="753c1a9c-7606-40a5-9d90-28168fb776d7%28Clearsettle.Driver%29-1382251/M%3AClearsettle.Driver.ClearsettleClient.NeedFreshToken" />
+    <RecentMethod id="753c1a9c-7606-40a5-9d90-28168fb776d7%28Clearsettle.Driver%29-1382251/M%3AClearsettle.Driver.Model.Builder.TransactionListRequestBuilder.Create" />
+    <RecentMethod id="3160b873-bb6d-4aee-8b82-f5aab26e42a0%28Clearsettle.Driver.Tests%29-DD009C44/M%3AClearsettle.Driver.Tests.ClearsettleClientFixture.Get_Client_Should_Not_Be_Null" />
+    <RecentMethod id="753c1a9c-7606-40a5-9d90-28168fb776d7%28Clearsettle.Driver%29-1382251/M%3AClearsettle.Driver.Model.Builder.ReportRequestBuilder.Build" />
+    <RecentMethod id="753c1a9c-7606-40a5-9d90-28168fb776d7%28Clearsettle.Driver%29-1382251/P%3AClearsettle.Driver.Model.Request.ReportRequest.Merchant" />
+    <RecentMethod id="753c1a9c-7606-40a5-9d90-28168fb776d7%28Clearsettle.Driver%29-1382251/M%3AClearsettle.Driver.Model.Builder.ReportRequestBuilder.Validate" />
+    <RecentMethod id="753c1a9c-7606-40a5-9d90-28168fb776d7%28Clearsettle.Driver%29-1382251/M%3AClearsettle.Driver.ClearsettleClient.GetReport%28Clearsettle.Driver.Model.Request.ReportRequest%29" />
+    <RecentMethod id="3160b873-bb6d-4aee-8b82-f5aab26e42a0%28Clearsettle.Driver.Tests%29-DD009C44/M%3AClearsettle.Driver.Tests.ClearsettleClientFixture.Get_Report_Should_Not_Be_Null" />
+    <RecentMethod id="753c1a9c-7606-40a5-9d90-28168fb776d7%28Clearsettle.Driver%29-1382251/M%3AClearsettle.Driver.ClearsettleClient.MakePostApiCall%60%601%28System.String%2CSystem.Object%2CSystem.Boolean%29" />
+  </RecentlyViewedMethods>
+</RecentlyViewedMethods>

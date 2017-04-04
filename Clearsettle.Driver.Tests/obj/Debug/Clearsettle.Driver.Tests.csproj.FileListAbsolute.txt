@@ -30,11 +30,12 @@ C:\Users\Amir\Documents\Visual Studio 2015\Projects\Clearsettle.Reporting\Clears
 C:\Users\Amir\Documents\Visual Studio 2015\Projects\Clearsettle.Reporting\Clearsettle.Driver.Tests\bin\Debug\FluentAssertions.Core.dll
 C:\Users\Amir\Documents\Visual Studio 2015\Projects\Clearsettle.Reporting\Clearsettle.Driver.Tests\bin\Debug\FluentAssertions.dll
 C:\Users\Amir\Documents\Visual Studio 2015\Projects\Clearsettle.Reporting\Clearsettle.Driver.Tests\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Amir\Documents\Visual Studio 2015\Projects\Clearsettle.Reporting\Clearsettle.Driver.Tests\bin\Debug\System.Net.Http.Formatting.dll
 C:\Users\Amir\Documents\Visual Studio 2015\Projects\Clearsettle.Reporting\Clearsettle.Driver.Tests\bin\Debug\Clearsettle.Driver.pdb
 C:\Users\Amir\Documents\Visual Studio 2015\Projects\Clearsettle.Reporting\Clearsettle.Driver.Tests\bin\Debug\FluentAssertions.pdb
 C:\Users\Amir\Documents\Visual Studio 2015\Projects\Clearsettle.Reporting\Clearsettle.Driver.Tests\bin\Debug\FluentAssertions.xml
 C:\Users\Amir\Documents\Visual Studio 2015\Projects\Clearsettle.Reporting\Clearsettle.Driver.Tests\bin\Debug\FluentAssertions.Core.pdb
 C:\Users\Amir\Documents\Visual Studio 2015\Projects\Clearsettle.Reporting\Clearsettle.Driver.Tests\bin\Debug\FluentAssertions.Core.xml
 C:\Users\Amir\Documents\Visual Studio 2015\Projects\Clearsettle.Reporting\Clearsettle.Driver.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Amir\Documents\Visual Studio 2015\Projects\Clearsettle.Reporting\Clearsettle.Driver.Tests\bin\Debug\Conditions.dll
+C:\Users\Amir\Documents\Visual Studio 2015\Projects\Clearsettle.Reporting\Clearsettle.Driver.Tests\bin\Debug\System.Net.Http.Formatting.dll
 C:\Users\Amir\Documents\Visual Studio 2015\Projects\Clearsettle.Reporting\Clearsettle.Driver.Tests\bin\Debug\System.Net.Http.Formatting.xml

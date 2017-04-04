@@ -16,9 +16,10 @@ namespace Clearsettle.Driver
         const string ActionTransaction = "transaction";
         const string ActionClient = "client";
         const string ActionMerchant = "merchant";
-        private HttpClient httpClient;
-        private string _token;
-        private DateTime _tokenExpireTime;
+        const int TokenExpiredInMinute = 10;
+        HttpClient httpClient;
+        string _token;
+        DateTime _tokenExpireTime;
 
         private string Token
         {
@@ -27,16 +28,12 @@ namespace Clearsettle.Driver
                 if (NeedFreshToken())
                 {
                     _token = Login().Result;
-                    _tokenExpireTime = DateTime.Now.AddMinutes(10);
+                    _tokenExpireTime = DateTime.Now.AddMinutes(TokenExpiredInMinute);
                 }
                 return _token;
             }
         }
 
-        private bool NeedFreshToken()
-        {
-            return _token == null || _tokenExpireTime < DateTime.Now;
-        }
 
         public ClearsettleClient(ClearsettleConfiguration config)
         {
@@ -66,9 +63,9 @@ namespace Clearsettle.Driver
             return response.Token;
         }
 
-        public async Task<Merchant> GetMerchant(MerchentRequest request)
+        public async Task<MerchantResponse> GetMerchant(MerchentRequest request)
         {
-            return await MakePostApiCall<Merchant>(ActionMerchant, request);
+            return await MakePostApiCall<MerchantResponse>(ActionMerchant, request);
         }
 
         public async Task<ReportResponse> GetReport(ReportRequest request)
@@ -86,18 +83,16 @@ namespace Clearsettle.Driver
             return await MakePostApiCall<TransactionListResponse>(ActionTransactionList, request);
         }
 
+        public async Task<CustomerInfoResponse> GetClient(ClientRequest request)
+        {
+            return await MakePostApiCall<CustomerInfoResponse>(ActionClient, request);
+        }
+
         async Task<T> MakePostApiCall<T>(string method, object data, bool withAuthorization = true)
         {
-            try
-            {
-                var uri = configuration.BuildUrlFor(method);
-                var result = await HttpClient(withAuthorization).PostAsJsonAsync(uri, data);
-                return Deserialize<T>(await result.Content.ReadAsStringAsync());
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
+            var uri = configuration.BuildUrlFor(method);
+            var result = await HttpClient(withAuthorization).PostAsJsonAsync(uri, data);
+            return Deserialize<T>(await result.Content.ReadAsStringAsync());
         }
 
         T Deserialize<T>(string data)
@@ -109,5 +104,10 @@ namespace Clearsettle.Driver
         {
             CheckAdditionalContent = false
         };
+
+        private bool NeedFreshToken()
+        {
+            return _token == null || _tokenExpireTime < DateTime.Now;
+        }
     }
 }

@@ -23,6 +23,6 @@ namespace Clearsettle.Driver.Model.Response
         public int To { get; set; }
 
         [JsonProperty("data")]
-        public TransactionResponse Data { get; set; }
+        public TransactionResponse[] Data { get; set; }
     }
 }
