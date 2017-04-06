@@ -55,7 +55,7 @@ namespace Clearsettle.Driver.Model.Builder
 
         DateTime fromDate;
         DateTime toDate;
-        int merchant;
-        int acquirer;
+        int? merchant;
+        int? acquirer;
     }
 }

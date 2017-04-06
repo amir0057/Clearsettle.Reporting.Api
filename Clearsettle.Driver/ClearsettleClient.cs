@@ -21,19 +21,16 @@ namespace Clearsettle.Driver
         string _token;
         DateTime _tokenExpireTime;
 
-        private string Token
-        {
-            get
-            {
-                if (NeedFreshToken())
-                {
-                    _token = Login().Result;
-                    _tokenExpireTime = DateTime.Now.AddMinutes(TokenExpiredInMinute);
-                }
-                return _token;
-            }
-        }
 
+        private async Task<string> GetToken()
+        {
+            if (NeedFreshToken())
+            {
+                _token = await Login();
+                _tokenExpireTime = DateTime.Now.AddMinutes(TokenExpiredInMinute);
+            }
+            return _token;
+        }
 
         public ClearsettleClient(ClearsettleConfiguration config)
         {
@@ -41,16 +38,6 @@ namespace Clearsettle.Driver
             httpClient = new HttpClient();
         }
 
-        public HttpClient HttpClient(bool withAuthorization)
-        {
-            httpClient.DefaultRequestHeaders.Clear();
-
-            if (!withAuthorization)
-                return httpClient;
-
-            httpClient.DefaultRequestHeaders.Add("Authorization", Token);
-            return httpClient;
-        }
 
         public async Task<string> Login()
         {
@@ -90,9 +77,18 @@ namespace Clearsettle.Driver
 
         async Task<T> MakePostApiCall<T>(string method, object data, bool withAuthorization = true)
         {
+            if (withAuthorization)
+                await AddAuthorization();
+
             var uri = configuration.BuildUrlFor(method);
-            var result = await HttpClient(withAuthorization).PostAsJsonAsync(uri, data);
+            var result = await httpClient.PostAsJsonAsync(uri, data);
             return Deserialize<T>(await result.Content.ReadAsStringAsync());
+        }
+
+        private async Task AddAuthorization()
+        {
+            httpClient.DefaultRequestHeaders.Clear();
+            httpClient.DefaultRequestHeaders.Add("Authorization", await GetToken());
         }
 
         T Deserialize<T>(string data)

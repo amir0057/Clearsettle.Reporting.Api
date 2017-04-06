@@ -1,0 +1,351 @@
+﻿@model Clearsettle.Reporting.Web.Models.ClientModel
+
+<h3>Client Info</h3>
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.Id, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.Id)</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.gender, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.gender)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.birthday, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.birthday)</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.Email)</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.issueNumber, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.issueNumber)</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.number, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.number)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.created_at, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.created_at)</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.deleted_at, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.deleted_at)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.startMonth, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.startMonth)</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.startYear, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.startYear)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.expiryMonth, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.expiryMonth)</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.expiryYear, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.expiryYear)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<h3>Billing Info</h3>
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.BillingFirstName, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.BillingFirstName)</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.billingLastName, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.billingLastName)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.billingCompany, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.billingCompany)</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.billingTitle, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.billingTitle)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.billingAddress1, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.billingAddress1)</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.billingAddress2, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.billingAddress2)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.billingCountry, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.billingCountry)</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.billingCity, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.billingCity)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.billingPhone, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.billingPhone)</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.billingFax, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.billingFax)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.billingPostcode, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.billingPostcode)</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.billingState, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.billingState)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h3>Shipping Info</h3>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.shippingCompany, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.shippingCompany)</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.shippingTitle, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.shippingTitle)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.shippingFirstName, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.shippingFirstName)</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.shippingLastName, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.shippingLastName)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.shippingCountry, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.shippingCountry)</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.shippingCity, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.shippingCity)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.shippingAddress1, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.shippingAddress1)</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.shippingAddress2, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.shippingAddress2)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.shippingFax, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.shippingFax)</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.shippingPhone, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.shippingPhone)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.billingPostcode, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.billingPostcode)</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.shippingState, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.shippingState)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

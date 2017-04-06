@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Transaction";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<form class="form-horizontal">
+    <div class="panel panel-primary">
+        <div class="panel-heading">Transaction</div>
+        <div class="panel-body">
+            <div class="form-group">
+                <label for="inputTransactionId" class="control-label col-xs-2">Transaction Id</label>
+                <div class="col-xs-6">
+                    <input type="text" class="form-control" id="inputTransactionId" placeholder="Transaction Id">
+                    <span class="help-block">
+                        Example: 2827-1443515082-3
+                    </span>
+                </div>
+                <div class="col-xs-2">
+                    <button type="button" id="btnGetTransaction" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group" id="divTransaction">
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<script>
+    $(document).ready(function () {
+        $('#btnGetTransaction')
+    .on('click',
+        function (e) {
+            console.log('aa');
+            var transactionid = $('#inputTransactionId').val();
+            GetTransaction(transactionid);
+        });
+    })
+</script>

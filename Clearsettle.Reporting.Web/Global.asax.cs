@@ -1,6 +1,8 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using System.Web.Optimization;
+using Clearsettle.Reporting.Web.App_Start;
 
 namespace Clearsettle.Reporting.Web
 {
@@ -10,6 +12,7 @@ namespace Clearsettle.Reporting.Web
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
     }
 }

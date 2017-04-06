@@ -9,6 +9,7 @@ namespace Clearsettle.Driver.Model.Response
         [JsonProperty("status")]
         public string Status { get; set; }
     }
+
     public class report
     {
         [JsonProperty("count")]
@@ -20,21 +21,4 @@ namespace Clearsettle.Driver.Model.Response
         [JsonProperty("currency")]
         public string Currency { get; set; }
     }
-    //public class report
-    //{
-
-    //    public ResponseData[] Response { get; set; }
-
-    //    public class ResponseData
-    //    {
-    //        [JsonProperty("count")]
-    //        public int Count { get; set; }
-
-    //        [JsonProperty("total")]
-    //        public int Total { get; set; }
-
-    //        [JsonProperty("currency")]
-    //        public string Currency { get; set; }
-    //    }
-    //}
 }

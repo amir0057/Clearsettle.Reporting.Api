@@ -1,0 +1,241 @@
+﻿@model Clearsettle.Reporting.Web.Models.TransactionModel
+
+<h3>FX Info</h3>
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.FX.FxMerchant.OriginalAmount, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.FX.FxMerchant.OriginalAmount)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.FX.FxMerchant.OriginalCurrency, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.FX.FxMerchant.OriginalCurrency)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@Html.Partial("_client", Model.CustomerInfo);
+
+
+<h3>Merchant Info</h3>
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.MerchantInfo.Name, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.MerchantInfo.Name)</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<h3>Merchant Transaction Info</h3>
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.merchantTransactions.MerchantInfo.ReferenceNo, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.merchantTransactions.MerchantInfo.ReferenceNo)</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.merchantTransactions.MerchantInfo.Status, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.merchantTransactions.MerchantInfo.Status)</p>
+            </div>
+        </div>
+    </div>
+</div>    
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.merchantTransactions.MerchantInfo.acquirerTransactionId, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.merchantTransactions.MerchantInfo.acquirerTransactionId)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.merchantTransactions.MerchantInfo.agentInfoId, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.merchantTransactions.MerchantInfo.agentInfoId)</p>
+            </div>
+        </div>
+    </div>
+</div>  
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.merchantTransactions.MerchantInfo.chainId, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.merchantTransactions.MerchantInfo.chainId)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.merchantTransactions.MerchantInfo.channel, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.merchantTransactions.MerchantInfo.channel)</p>
+            </div>
+        </div>
+    </div>
+</div>  
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.merchantTransactions.MerchantInfo.code, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.merchantTransactions.MerchantInfo.code)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.merchantTransactions.MerchantInfo.fxTransactionId, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.merchantTransactions.MerchantInfo.fxTransactionId)</p>
+            </div>
+        </div>
+    </div>
+</div>  
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.merchantTransactions.MerchantInfo.id, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.merchantTransactions.MerchantInfo.id)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.merchantTransactions.MerchantInfo.merchantId, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.merchantTransactions.MerchantInfo.merchantId)</p>
+            </div>
+        </div>
+    </div>
+</div>  
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.merchantTransactions.MerchantInfo.message, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.merchantTransactions.MerchantInfo.message)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.merchantTransactions.MerchantInfo.operation, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.merchantTransactions.MerchantInfo.operation)</p>
+            </div>
+        </div>
+    </div>
+</div>  
+
+<h3>Agent</h3>
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.merchantTransactions.MerchantInfo.Agent.Id, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.merchantTransactions.MerchantInfo.Agent.Id)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.merchantTransactions.MerchantInfo.Agent.MerchantIp, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.merchantTransactions.MerchantInfo.Agent.MerchantIp)</p>
+            </div>
+        </div>
+    </div>
+</div>  
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.merchantTransactions.MerchantInfo.Agent.CreatedAt, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.merchantTransactions.MerchantInfo.Agent.CreatedAt)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.merchantTransactions.MerchantInfo.Agent.DeletedAt, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.merchantTransactions.MerchantInfo.Agent.DeletedAt)</p>
+            </div>
+        </div>
+    </div>
+</div>  
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.merchantTransactions.MerchantInfo.Agent.CustomerUserAgent, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.merchantTransactions.MerchantInfo.Agent.CustomerUserAgent)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.merchantTransactions.MerchantInfo.Agent.MerchantUserAgent, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.merchantTransactions.MerchantInfo.Agent.MerchantUserAgent)</p>
+            </div>
+        </div>
+    </div>
+</div>  
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.merchantTransactions.MerchantInfo.Agent.CustomerIp, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.merchantTransactions.MerchantInfo.Agent.CustomerIp)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="form-group">
+            @Html.LabelFor(model => model.merchantTransactions.MerchantInfo.Agent.UpdatedAt, new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
+                <p class="form-control-static">@Html.DisplayFor(model => model.merchantTransactions.MerchantInfo.Agent.UpdatedAt)</p>
+            </div>
+        </div>
+    </div>
+</div>  

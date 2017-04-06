@@ -1,17 +1,66 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/d:Model/d:Request/f:MerchentRequest.cs" caret="0" fromTop="0" />
-    <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/d:Model/d:Response/f:TransactionResponse.cs" caret="0" fromTop="0" />
-    <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/d:Model/d:Response/f:TransactionListResponse.cs" caret="0" fromTop="0" />
-    <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/d:Model/d:Response/f:ReportResponse.cs" caret="0" fromTop="0" />
-    <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/d:Model/d:Response/f:Merchant.cs" caret="0" fromTop="0" />
+    <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/f:ClearsettleClient.cs" caret="1828" fromTop="15" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/f:ClearsettleApiService.cs" caret="1746" fromTop="21" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Shared/f:_Layout.cshtml" caret="1713" fromTop="36" />
+    <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/d:Builder/f:ReportRequestBuilder.cs" caret="0" fromTop="0" />
+    <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/d:Builder/f:TransactionListRequestBuilder.cs" caret="0" fromTop="0" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Home/f:Transaction.cshtml" caret="92" fromTop="5" />
+    <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/f:ClearsettleConfiguration.cs" caret="780" fromTop="21" />
+    <File id="3160B873-BB6D-4AEE-8B82-F5AAB26E42A0/f:app.config" caret="429" fromTop="11" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/f:Web.config" caret="0" fromTop="0" />
     <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/d:Model/d:Response/f:LoginResponse.cs" caret="0" fromTop="0" />
-    <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/d:Model/d:Response/f:CustomerInfo.cs" caret="0" fromTop="0" />
-    <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/d:Model/d:Request/f:TransactionListRequest.cs" caret="0" fromTop="0" />
-    <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/f:ClearsettleConfiguration.cs" caret="0" fromTop="0" />
-    <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/f:ClearsettleClient.cs" caret="1838" fromTop="11" />
+    <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/d:Model/d:Response/f:MerchantResponse.cs" caret="0" fromTop="0" />
+    <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/d:Model/d:Response/f:TransactionListResponse.cs" caret="0" fromTop="0" />
+    <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/d:Model/d:Response/f:TransactionResponse.cs" caret="754" fromTop="27" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Models/f:ReportModel.cs" caret="442" fromTop="19" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_transaction.cshtml" caret="573" fromTop="16" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Home/f:Report.cshtml" caret="104" fromTop="6" />
+    <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/d:Model/d:Response/f:ReportResponse.cs" caret="281" fromTop="11" />
+    <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/d:Model/d:Request/f:ReportRequest.cs" caret="0" fromTop="0" />
+    <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/d:Model/d:Request/f:TransactionRequest.cs" caret="0" fromTop="0" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Models/f:TransactionModel.cs" caret="0" fromTop="0" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Models/f:MerchantModel.cs" caret="419" fromTop="10" />
+    <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/d:Model/d:Request/f:ClientRequest.cs" caret="0" fromTop="0" />
+    <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/d:Model/d:Response/f:CustomerInfoResponse.cs" caret="3582" fromTop="19" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_merchant.cshtml" caret="0" fromTop="0" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_client.cshtml" caret="6038" fromTop="35" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Home/f:Merchant.cshtml" caret="1257" fromTop="35" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Home/f:Client.cshtml" caret="1052" fromTop="30" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Scripts/d:site/f:site.js" caret="483" fromTop="19" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Models/f:ClientModel.cs" caret="3437" fromTop="25" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Controllers/f:HomeController.cs" caret="1514" fromTop="21" />
   </RecentFiles>
   <RecentEdits>
-    <File id="753C1A9C-7606-40A5-9D90-28168FB776D7/f:ClearsettleClient.cs" caret="1000" fromTop="20" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Models/f:ClientModel.cs" caret="3375" fromTop="24" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_client.cshtml" caret="117" fromTop="3" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_client.cshtml" caret="4306" fromTop="19" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_client.cshtml" caret="4306" fromTop="26" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_client.cshtml" caret="4306" fromTop="33" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_client.cshtml" caret="4306" fromTop="25" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_client.cshtml" caret="4306" fromTop="32" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_client.cshtml" caret="4306" fromTop="27" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_client.cshtml" caret="4306" fromTop="34" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_client.cshtml" caret="4306" fromTop="26" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_client.cshtml" caret="4306" fromTop="33" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_client.cshtml" caret="6058" fromTop="37" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_client.cshtml" caret="4306" fromTop="18" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_client.cshtml" caret="4306" fromTop="29" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_client.cshtml" caret="4314" fromTop="33" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_client.cshtml" caret="6052" fromTop="16" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_client.cshtml" caret="6052" fromTop="23" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_client.cshtml" caret="6052" fromTop="30" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_client.cshtml" caret="6052" fromTop="31" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_client.cshtml" caret="569" fromTop="16" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_client.cshtml" caret="4622" fromTop="13" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Partials/f:_client.cshtml" caret="6066" fromTop="37" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Home/f:Client.cshtml" caret="33" fromTop="2" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Home/f:Client.cshtml" caret="201" fromTop="8" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Home/f:Client.cshtml" caret="896" fromTop="23" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Home/f:Client.cshtml" caret="496" fromTop="14" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Views/d:Home/f:Client.cshtml" caret="1002" fromTop="29" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Scripts/d:site/f:site.js" caret="483" fromTop="19" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Controllers/f:HomeController.cs" caret="1621" fromTop="23" />
+    <File id="CF0CADBB-388E-42CB-BA16-F96530936AD9/d:Controllers/f:HomeController.cs" caret="1514" fromTop="21" />
   </RecentEdits>
 </RecentFiles>
