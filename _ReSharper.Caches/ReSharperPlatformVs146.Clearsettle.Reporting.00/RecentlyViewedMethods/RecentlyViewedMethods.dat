@@ -1,21 +1,8 @@
 ﻿<RecentlyViewedMethods>
   <RecentlyViewedMethods>
     <RecentMethod id="cf0cadbb-388e-42cb-ba16-f96530936ad9%28Clearsettle.Reporting.Web%29-4C82194B-%5Bcshtml%5D%20Views%5CShared/M%3AASP._Page_Views_Shared__Layout_cshtml.Execute" />
-    <RecentMethod id="cf0cadbb-388e-42cb-ba16-f96530936ad9%28Clearsettle.Reporting.Web%29-4C82194B-WebAppMainModule/P%3AClearsettle.Reporting.Web.Models.ReportModel.Status" />
-    <RecentMethod id="3160b873-bb6d-4aee-8b82-f5aab26e42a0%28Clearsettle.Driver.Tests%29-DD009C44/M%3AClearsettle.Driver.Tests.ClearsettleClientFixture.Get_Report_Should_Not_Be_Null" />
-    <RecentMethod id="753c1a9c-7606-40a5-9d90-28168fb776d7%28Clearsettle.Driver%29-1382251/M%3AClearsettle.Driver.ClearsettleClient.%23ctor%28Clearsettle.Driver.ClearsettleConfiguration%29" />
-    <RecentMethod id="753c1a9c-7606-40a5-9d90-28168fb776d7%28Clearsettle.Driver%29-1382251/M%3AClearsettle.Driver.ClearsettleClient.Login" />
-    <RecentMethod id="cf0cadbb-388e-42cb-ba16-f96530936ad9%28Clearsettle.Reporting.Web%29-4C82194B-WebAppMainModule/P%3AClearsettle.Reporting.Web.Models.ReportData.Count" />
-    <RecentMethod id="cf0cadbb-388e-42cb-ba16-f96530936ad9%28Clearsettle.Reporting.Web%29-4C82194B-WebAppMainModule/M%3AClearsettle.Reporting.Web.Controllers.HomeController.GetReport%28System.String%2CSystem.String%29" />
+    <RecentMethod id="cf0cadbb-388e-42cb-ba16-f96530936ad9%28Clearsettle.Reporting.Web%29-4C82194B-%5Bcshtml%5D%20Views%5CShared/M%3AASP._Page_Views_Shared__merchant_cshtml.Execute" />
     <RecentMethod id="cf0cadbb-388e-42cb-ba16-f96530936ad9%28Clearsettle.Reporting.Web%29-4C82194B-WebAppMainModule/M%3AClearsettle.Reporting.Web.Controllers.HomeController.GetTransaction%28System.String%29" />
-    <RecentMethod id="cf0cadbb-388e-42cb-ba16-f96530936ad9%28Clearsettle.Reporting.Web%29-4C82194B-WebAppMainModule/M%3AClearsettle.Reporting.Web.Controllers.HomeController.GetClient%28System.String%29" />
-    <RecentMethod id="cf0cadbb-388e-42cb-ba16-f96530936ad9%28Clearsettle.Reporting.Web%29-4C82194B-WebAppMainModule/M%3AClearsettle.Reporting.Web.ClearsettleApiService.GetReport%28System.DateTime%2CSystem.DateTime%29" />
-    <RecentMethod id="cf0cadbb-388e-42cb-ba16-f96530936ad9%28Clearsettle.Reporting.Web%29-4C82194B-WebAppMainModule/P%3AClearsettle.Reporting.Web.Models.TransactionAgent.MerchantUserAgent" />
-    <RecentMethod id="cf0cadbb-388e-42cb-ba16-f96530936ad9%28Clearsettle.Reporting.Web%29-4C82194B-WebAppMainModule/P%3AClearsettle.Reporting.Web.Models.TransactionAgent.DeletedAt" />
-    <RecentMethod id="cf0cadbb-388e-42cb-ba16-f96530936ad9%28Clearsettle.Reporting.Web%29-4C82194B-WebAppMainModule/P%3AClearsettle.Reporting.Web.Models.MerchantTransactionMerchant.Agent" />
-    <RecentMethod id="cf0cadbb-388e-42cb-ba16-f96530936ad9%28Clearsettle.Reporting.Web%29-4C82194B-WebAppMainModule/P%3AClearsettle.Reporting.Web.Models.MerchantTransactionMerchant.channel" />
-    <RecentMethod id="cf0cadbb-388e-42cb-ba16-f96530936ad9%28Clearsettle.Reporting.Web%29-4C82194B-WebAppMainModule/P%3AClearsettle.Reporting.Web.Models.MerchantTransactionMerchant.customData" />
-    <RecentMethod id="cf0cadbb-388e-42cb-ba16-f96530936ad9%28Clearsettle.Reporting.Web%29-4C82194B-WebAppMainModule/P%3AClearsettle.Reporting.Web.Models.TransactionMerchantInfo.Name" />
-    <RecentMethod id="cf0cadbb-388e-42cb-ba16-f96530936ad9%28Clearsettle.Reporting.Web%29-4C82194B-WebAppMainModule/M%3AClearsettle.Reporting.Web.ClearsettleApiService.GetMerchant%28System.String%29" />
+    <RecentMethod id="cf0cadbb-388e-42cb-ba16-f96530936ad9%28Clearsettle.Reporting.Web%29-4C82194B-WebAppMainModule/M%3AClearsettle.Reporting.Web.Controllers.HomeController.GetMerchant%28System.String%29" />
   </RecentlyViewedMethods>
 </RecentlyViewedMethods>

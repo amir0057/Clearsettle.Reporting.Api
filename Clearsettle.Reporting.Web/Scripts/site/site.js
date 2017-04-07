@@ -1,22 +1,22 @@
 ﻿function GetReport(from, to) {
-    AjaxGet('/Home/GetReport', { from: from, to:to }, 'divReport');
+    AjaxGet('../Home/GetReport', { from: from, to:to }, 'divReport', true);
 }
 
 function GetTransaction(transactionid) {
-    AjaxGet('/Home/GetTransaction', { transactionId: transactionid }, 'divTransaction');
+    AjaxGet('../Home/GetTransaction', { transactionId: transactionid }, 'divTransaction', false);
 }
 
 function GetMerchant(transactionid) {
-    AjaxGet('/Home/GetMerchant', { transactionId: transactionid }, 'divMerchant');
+   AjaxGet('../Home/GetMerchant', { transactionId: transactionid }, 'divMerchant', false);
 }
 
 function GetClient(transactionid) {
-    AjaxGet('/Home/GetClient', { transactionId: transactionid }, 'divClient');
+    AjaxGet('../Home/GetClient', { transactionId: transactionid }, 'divClient', false);
 }
 
-function AjaxGet(url, data, divForShow) {
+function AjaxGet(url, data, divForShow, isPost) {
     $.ajax({
-        type: "POST",
+        type: isPost ? "POST" : "GET",
         url: url,
         data: data,
         dataType: "html",

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 using System.Web.Mvc;
+using Clearsettle.Reporting.Web.Models;
 
 namespace Clearsettle.Reporting.Web.Controllers
 {
@@ -40,6 +41,7 @@ namespace Clearsettle.Reporting.Web.Controllers
 
         [HttpGet]
         [ActionName("GetTransaction")]
+        [Route("Home/GetTransaction")]
         public async Task<ActionResult> GetTransaction(string transactionId)
         {
             var transaction = await ClearsettleApiService.GetTransaction(transactionId);

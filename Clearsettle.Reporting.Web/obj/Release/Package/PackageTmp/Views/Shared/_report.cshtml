@@ -1,0 +1,32 @@
+﻿@model Clearsettle.Reporting.Web.Models.ReportModel
+<table class="table table-responsive">
+    <thead>
+    <tr>
+        <th>
+            @Html.Label("Count")   
+        </th>
+        <th>
+            @Html.Label("Currency")
+        </th>
+        <th>
+            @Html.Label("Total")
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var data in Model.Report.ToList())
+    {
+        <tr>
+            <td>
+                @data.Count
+            </td>
+            <td>
+                @data.Currency
+            </td>
+            <td>
+                @data.Total
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

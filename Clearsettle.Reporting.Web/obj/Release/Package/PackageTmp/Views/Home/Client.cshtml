@@ -1,0 +1,37 @@
+﻿@{
+    ViewBag.Title = "Client";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form class="form-horizontal">
+    <div class="panel panel-primary">
+        <div class="panel-heading">Client</div>
+        <div class="panel-body">
+
+            <div class="form-group">
+                <label for="inputMerchant" class="control-label col-xs-2">Transaction Id</label>
+                <div class="col-xs-6">
+                    <input type="text" class="form-control" id="inputClient" placeholder="Transaction Id">
+                    <span class="help-block">
+                        Example: 2827-1443515082-3
+                    </span>
+                </div>
+                <div class="col-xs-2">
+                    <button type="button" id="btnGetClient" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div id="divClient"></div>
+            </div>
+        </div>
+    </div>
+</form>
+
+<script>
+    $(document).ready(function () {
+        $('#btnGetClient').on('click', function (e) {
+            var transactionid = $('#inputClient').val();
+            GetClient(transactionid);
+        });
+    })
+</script>

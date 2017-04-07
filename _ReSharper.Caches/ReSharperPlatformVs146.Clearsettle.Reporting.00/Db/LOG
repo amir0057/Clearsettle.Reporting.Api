@@ -27,3 +27,24 @@
 2017/04/06-18:09:34.834 8abc Level-0 table #243: started
 2017/04/06-18:09:34.869 8abc Level-0 table #243: 3395666 bytes OK
 2017/04/06-18:09:34.871 8abc Delete type=0 #234
+2017/04/06-23:43:28.584 8abc Compacting 1@0 + 3@1 files
+2017/04/06-23:43:28.589 8abc Generated table #244: 88 keys, 22889 bytes
+2017/04/06-23:43:28.611 8abc Generated table #245: 3053 keys, 2161997 bytes
+2017/04/06-23:43:28.615 8abc Generated table #246: 164 keys, 267999 bytes
+2017/04/06-23:43:28.630 8abc Generated table #247: 1151 keys, 309750 bytes
+2017/04/06-23:43:28.630 8abc Compacted 1@0 + 3@1 files => 2762635 bytes
+2017/04/06-23:43:28.631 8abc Delete type=2 #235
+2017/04/06-23:43:28.631 8abc Delete type=2 #236
+2017/04/06-23:43:28.632 8abc Delete type=2 #237
+2017/04/06-23:43:28.632 8abc Delete type=2 #243
+2017/04/06-23:43:28.633 8abc compacted to: files[ 0 4 41 0 0 0 0 ]
+2017/04/07-00:37:14.871 8abc Compacting 1@1 + 3@2 files
+2017/04/07-00:37:14.890 8abc Generated table #248: 1235 keys, 2260123 bytes
+2017/04/07-00:37:14.905 8abc Generated table #249: 9 keys, 2765129 bytes
+2017/04/07-00:37:14.909 8abc Generated table #250: 299 keys, 265702 bytes
+2017/04/07-00:37:14.909 8abc Compacted 1@1 + 3@2 files => 5290954 bytes
+2017/04/07-00:37:14.910 8abc Delete type=2 #239
+2017/04/07-00:37:14.911 8abc Delete type=2 #240
+2017/04/07-00:37:14.911 8abc Delete type=2 #241
+2017/04/07-00:37:14.912 8abc Delete type=2 #247
+2017/04/07-00:37:14.912 8abc compacted to: files[ 0 3 41 0 0 0 0 ]

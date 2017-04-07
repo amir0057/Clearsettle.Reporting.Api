@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "Report";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form class="form-horizontal">
+    <div class="panel panel-primary">
+        <div class="panel-heading">Report</div>
+        <div class="panel-body">
+
+            <div class="form-group">
+                <label for="inputMerchant" class="control-label col-xs-2">Transaction Id</label>
+                <div class="col-xs-4">
+                    <input type="text" class="form-control" id="inputFromDate" placeholder="From date">
+                    <span class="help-block">
+                        Example: 2015-07-01
+                    </span>
+                </div>
+                <div class="col-xs-4">
+                    <input type="text" class="form-control" id="inputToDate" placeholder="To date">
+                    <span class="help-block">
+                        Example: 2015-10-01
+                    </span>
+                </div>
+                <div class="col-xs-2">
+                    <button type="button" id="btnGetReport" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+            
+            <div class="col-md-12">
+                <div id="divReport"></div>
+            </div>
+        </div>
+    </div>
+</form>
+<script>
+    $(document).ready(function () {
+        $('#btnGetReport').on('click', function (e) {
+            var fromDate = $('#inputFromDate').val();
+            var toDate = $('#inputToDate').val();
+            GetReport(fromDate, toDate);
+        });
+    })
+</script>
